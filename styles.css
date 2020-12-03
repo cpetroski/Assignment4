@@ -349,8 +349,8 @@
   }
 
   body {
-      padding-right: 10%;
-      padding-left: 10%;
+      /* padding-right: 10%;
+      padding-left: 10%; */
       font-family: Arial, Helvetica, sans-serif;
       background-color: oldlace;
   }
@@ -358,32 +358,90 @@
   h1 {
   text-align: center; 
   font-family: Georgia, 'Times New Roman', Times, serif; 
+  padding-right: 10%;
+  padding-left: 10%;
   }
 
-  img {
-     /* padding-top: 0px;
-     padding-right: 0px;
-     padding-bottom: 0px;
-     padding-left: 0px;  */
-     border-radius: 30px;
-     border-style: solid;
-     border-color: rgb(152, 189, 176);
-     border-width: 5px;
-     margin-bottom: 20px;
+  h2{
+    padding-right: 10%;
+    padding-left: 10%;
   }
 
-  .dirtykeeper{
+  h3{
+    padding-right: 10%;
+    padding-left: 10%;
+  }
+  
+  p{
+    padding-right: 10%;
+    padding-left: 10%;
+  }
+
+
+  #dirtykeeper{
     float: left; 
-    margin:3px 12px 3px 0px; 
+    margin: 12px 3px 3px 10%;
+    border-radius: 30px;
+    border-style: solid;
+    border-color: rgb(152, 189, 176); 
   }
 
-  .withball{
+  #withball{
     float: right; 
-    margin: 3px 0px 3px 12px;
+    margin: 3px 10% 3px 12px; 
+    border-radius: 30px;
+    border-style: solid;
+    border-color: rgb(152, 189, 176); 
   }
 
-  .lockerroom{
+  /* #lockerroom{
     float: right; 
-    margin: 3px 0px 3px 12px;
-  } 
+    margin: 0px 10% 3px 12px;
+    border-radius: 30px;
+    border-style: solid;
+    border-color: rgb(152, 189, 176); 
+  }  */
+  
+  #team{
+    float: none;
+    margin: 15px 0px 20px 15px;
+    border-radius: 30px;
+    border-style: solid;
+    border-color: rgb(152, 189, 176); 
+  }
+
+  #runsmile{
+      float: left; 
+      margin: 12px 3px 3px 10%;
+      border-radius: 30px;
+      border-style: solid;
+      border-color: rgb(152, 189, 176); 
+  }
+
+  #finishjump{
+    float: right; 
+    margin: 20px 10% 3px 12px;
+    border-radius: 30px;
+    border-style: solid;
+    border-color: rgb(152, 189, 176);
+  }
+
+  #finishsmile{
+    float: left; 
+    margin: 20px 3px 3px 10%;
+    border-radius: 30px;
+    border-style: solid;
+    border-color: rgb(152, 189, 176); 
+  }
+
+  #mybike{
+    float: none;
+    margin: 20px 10% 5% 10%;
+    border-radius: 30px;
+    border-style: solid;
+    border-color: rgb(152, 189, 176);
+  }
  
+footer{
+  text-align: center;
+}
