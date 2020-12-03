@@ -441,6 +441,10 @@
     border-style: solid;
     border-color: rgb(152, 189, 176);
   }
+
+  .future{
+    text-align: center;
+  }
  
 footer{
   text-align: center;
